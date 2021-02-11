@@ -45,7 +45,7 @@ def start(update, context):
     LOGGER.info('UID: {} - UN: {} - MSG: {}'.format(update.message.chat.id,update.message.chat.username,update.message.text))
     if CustomFilters.authorized_user(update) or CustomFilters.authorized_chat(update):
         if update.message.chat.type == "private" :
-            sendMessage(f"<b>Hɪ👋</b>  <b>{update.message.chat.first_name}</b>.  <b>Wᴇʟᴄᴏᴍᴇ Tᴏ Mɪʀʀᴏʀ Bᴏᴛ Sᴇɴᴅ /help Tᴏ Cʜᴇᴄᴋ Aᴠᴀɪʟᴀʙʟᴇ Cᴏᴍᴍᴀɴᴅs Iɴ Mʏ Sᴇʀᴠɪᴄᴇ\n\n👮𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫: @MirrorAll</b>", context.bot, update)
+            sendMessage(f"<b>Hɪ👋</b>  <b>{update.message.chat.first_name}</b>.  <b>Wᴇʟᴄᴏᴍᴇ Tᴏ Mɪʀʀᴏʀ Bᴏᴛ Sᴇɴᴅ /help Tᴏ Cʜᴇᴄᴋ Aᴠᴀɪʟᴀʙʟᴇ Cᴏᴍᴍᴀɴᴅs Iɴ Mʏ Sᴇʀᴠɪᴄᴇ\n\n👮𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫: @godhand111</b>", context.bot, update)
         else :
             sendMessage("<b>I'ᴍ Aʟɪᴠᴇ Yᴀᴀʀ💞, ➼Tʜᴀɴᴋs Fᴏʀ Cʜᴇᴄᴋɪɴɢ😋🥰.</b>", context.bot, update)
     else :
@@ -99,7 +99,7 @@ def bot_help(update, context):
 /{BotCommands.AddSudoCommand} <b>: Aᴅᴅ Sᴜᴅᴏ Usᴇʀ[Oɴʟʏ Oᴡɴᴇʀ]</b>
 /{BotCommands.RmSudoCommand} <b>: Rᴇᴍᴏᴠᴇ Sᴜᴅᴏ Usᴇʀs[Oɴʟʏ Oᴡɴᴇʀ]</b>
 /{BotCommands.LogCommand} <b>: Gᴇᴛ Bᴏᴛ Lᴏɢ Fɪʟᴇ[Oɴʟʏ Oᴡɴᴇʀ & Sᴜᴅᴏ]</b>\n\n
-<b>👮𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫 : @MirrorAll</b>
+<b>👮𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫 : @godhand111</b>
 '''
 
     help_string = f'''<b>🛰️Tʜᴇsᴇ Aʀᴇ Aᴠᴀɪʟᴀʙʟᴇ Cᴏᴍᴍᴀɴᴅs Iɴ Mʏ Sᴇʀᴠɪᴄᴇ👇👇</b>\n\n
@@ -116,7 +116,7 @@ def bot_help(update, context):
 /{BotCommands.ListCommand} <b>[name]: Sᴇᴀʀᴄʜᴇs Iɴ Tʜᴇ Oᴡɴᴇʀs Tᴇᴀᴍ ᴅʀɪᴠᴇ Fᴏʟᴅᴇʀ</b>
 /{BotCommands.StatsCommand} <b>: Sʜᴏᴡ Sᴛᴀᴛs Oꜰ Tʜᴇ Mᴀᴄʜɪɴᴇ</b>
 /{BotCommands.PingCommand} <b>: Cʜᴇᴄᴋ Pɪɴɢ!</b>\n\n
-<b>👮𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫 : @MirrorAll</b>
+<b>👮𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫 : @godhand111</b>
 '''
 
     if CustomFilters.sudo_user(update) or CustomFilters.owner_filter(update):
