@@ -1,5 +1,5 @@
 # Heroku Deployable Method:
-![Deploy](https://www.herokucdn.com/deploy/button.svg)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
 # Important - Read these points first
 - Original repos are:
